@@ -39,5 +39,27 @@ function scrollHeader() {
     header.classList.remove('scroll-header');
   }
 }
-
 window.addEventListener('scroll', scrollHeader);
+
+/* ======================= SWIPER DISCOVER ==================== */
+var swiper = new Swiper('.discover__container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  loop: true,
+  spaceBetween: 32,
+  coverflowEffect: {
+    rotate: 0,
+  },
+});
+
+/* ======================= VIDEO ==================== */
+
+/* ======================= SHOW SCROLL UP ==================== */
+
+/* ======================= SCROLL SECTIONS ACTIVE LINK ==================== */
+
+/* ======================= SCROLL REVEAL ANIMATION ==================== */
+
+/* ======================= DARK LIGHT THEME ==================== */
